@@ -16,16 +16,16 @@ const Index = () => {
         AI Software Dev
       </Heading>
       <Flex flex={1} gap={4} flexDirection="row" flexWrap="wrap">
-        <Box flex="1 0 50%" borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
+        <Box flex="1 0 48%" borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
           Container 1
         </Box>
-        <Box flex="1 0 50%" borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
+        <Box flex="1 0 48%" borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
           Container 2
         </Box>
-        <Box flex="1 0 50%" borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
+        <Box flex="1 0 48%" borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
           Container 3
         </Box>
-        <Box flex="1 0 50%" borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
+        <Box flex="1 0 48%" borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
           Container 4
         </Box>
       </Flex>
