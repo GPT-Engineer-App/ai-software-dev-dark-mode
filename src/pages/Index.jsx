@@ -12,11 +12,11 @@ const Index = () => {
       <Flex justifyContent="flex-end" p={2}>
         <IconButton aria-label="Toggle dark mode" icon={useColorModeValue(<FaMoon />, <FaSun />)} onClick={toggleColorMode} />
       </Flex>
-      <Heading mb={4} textAlign="center">
+      <Heading mb={4} textAlign="left">
         AI Software Dev
       </Heading>
-      <Flex flex={1} gap={4} flexDirection="column">
-        <Box flex={1} borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
+      <Flex flex={1} gap={4} flexDirection="row" flexWrap="wrap">
+        <Box flex="1 1 50%" borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
           Container 1
         </Box>
         <Box flex={1} borderRadius="lg" p={4} boxShadow={boxShadow} bg={bgColor}>
